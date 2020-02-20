@@ -1,0 +1,1 @@
+cmd_/home/dcslab/btrfs_4.14/btrfs.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/dcslab/btrfs_4.14/btrfs.ko /home/dcslab/btrfs_4.14/btrfs.o /home/dcslab/btrfs_4.14/btrfs.mod.o ;  true
