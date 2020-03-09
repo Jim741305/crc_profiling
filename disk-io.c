@@ -61,8 +61,16 @@
 				 BTRFS_SUPER_FLAG_SEEDING |\
 				 BTRFS_SUPER_FLAG_METADUMP)
 
-extern unsigned long long btree_readpage_end_io_hook_time;
-extern unsigned long long btree_readpage_end_io_hook_count;
+extern unsigned long long csum_tree_block_time;
+extern unsigned long long csum_tree_block_count;
+extern unsigned long long btrfs_csum_data_time;
+extern unsigned long long btrfs_csum_data_count
+
+
+extern unsigned long long btree_csum_one_bio_time;
+extern unsigned long long btree_csum_one_bio_count;
+extern unsigned long long csum_dirty_buffer_time;
+extern unsigned long long csum_dirty_buffer_count;
 
 
 static const struct extent_io_ops btree_extent_io_ops;
@@ -268,7 +276,17 @@ out:
 	return em;
 }
 
-u32 btrfs_csum_data(const char *data, u32 seed, size_t len)
+u32 btrfs_csum_data_internal(const char *data, u32 seed, size_t len);
+
+u32 btrfs_csum_data(const char *data, u32 seed, size_t len){
+	struct timespec local_time[2];
+        getrawmonotonic(&local_time[0]);
+        btrfs_csum_data_internal(data, seed, len);
+        getrawmonotonic(&local_time[1]);
+        calclock(local_time, &btrfs_csum_data_time, &btrfs_csum_data_count);
+}
+
+u32 btrfs_csum_data_internal(const char *data, u32 seed, size_t len)
 {
 	return btrfs_crc32c(seed, data, len);
 }
@@ -282,7 +300,22 @@ void btrfs_csum_final(u32 crc, u8 *result)
  * compute the csum for a btree block, and either verify it or write it
  * into the csum field of the block.
  */
+static int csum_tree_block_internal(struct btrfs_fs_info *fs_info,
+			   struct extent_buffer *buf,
+			   int verify);
+
 static int csum_tree_block(struct btrfs_fs_info *fs_info,
+			   struct extent_buffer *buf,
+			   int verify){
+
+	struct timespec local_time[2];
+        getrawmonotonic(&local_time[0]);
+        csum_tree_block_internal(fs_info, buf, verify);
+        getrawmonotonic(&local_time[1]);
+        calclock(local_time, &csum_tree_block_time, &csum_tree_block_count);
+
+}
+static int csum_tree_block_internal(struct btrfs_fs_info *fs_info,
 			   struct extent_buffer *buf,
 			   int verify)
 {
@@ -503,7 +536,17 @@ static int btree_read_extent_buffer_pages(struct btrfs_fs_info *fs_info,
  * we only fill in the checksum field in the first page of a multi-page block
  */
 
-static int csum_dirty_buffer(struct btrfs_fs_info *fs_info, struct page *page)
+static int csum_dirty_buffer_internal(struct btrfs_fs_info *fs_info, struct page *page);
+
+static int csum_dirty_buffer(struct btrfs_fs_info *fs_info, struct page *page){
+	struct timespec local_time[2];
+        getrawmonotonic(&local_time[0]);
+        csum_dirty_buffer_internal(fs_info, page);
+        getrawmonotonic(&local_time[1]);
+        calclock(local_time, &csum_dirty_buffer_time, &csum_dirty_buffer_count);
+
+}
+static int csum_dirty_buffer_internal(struct btrfs_fs_info *fs_info, struct page *page)
 {
 	u64 start = page_offset(page);
 	u64 found_start;
@@ -686,15 +729,8 @@ static int check_node(struct btrfs_root *root, struct extent_buffer *node)
 out:
 	return ret;
 }
-static int btree_readpage_end_io_hook_internal(struct btrfs_io_bio *io_bio,
-				      u64 phy_offset, struct page *page,
-				      u64 start, u64 end, int mirror);
-static int btree_readpage_end_io_hook(struct btrfs_io_bio *io_bio,
-				      u64 phy_offset, struct page *page,
-				      u64 start, u64 end, int mirror){
-}
 
-static int btree_readpage_end_io_hook_internal(struct btrfs_io_bio *io_bio,
+static int btree_readpage_end_io_hook(struct btrfs_io_bio *io_bio,
 				      u64 phy_offset, struct page *page,
 				      u64 start, u64 end, int mirror)
 {
@@ -969,7 +1005,16 @@ blk_status_t btrfs_wq_submit_bio(struct btrfs_fs_info *fs_info, struct bio *bio,
 	return 0;
 }
 
-static blk_status_t btree_csum_one_bio(struct bio *bio)
+static blk_status_t btree_csum_one_bio_internal(struct bio *bio);
+static blk_status_t btree_csum_one_bio(struct bio *bio){
+	struct timespec local_time[2];
+        getrawmonotonic(&local_time[0]);
+       	btree_csum_one_bio_internal(bio);
+        getrawmonotonic(&local_time[1]);
+        calclock(local_time, &btree_csum_one_bio_time, &btree_csum_one_bio_count);
+
+}
+static blk_status_t btree_csum_one_bio_internal(struct bio *bio)
 {
 	struct bio_vec *bvec;
 	struct btrfs_root *root;
