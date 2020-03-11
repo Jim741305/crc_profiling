@@ -61,7 +61,7 @@
 				 BTRFS_SUPER_FLAG_SEEDING |\
 				 BTRFS_SUPER_FLAG_METADUMP)
 
-extern unsigned long long csum_tree_block_time;
+/*extern unsigned long long csum_tree_block_time;
 extern unsigned long long csum_tree_block_count;
 extern unsigned long long btrfs_csum_data_time;
 extern unsigned long long btrfs_csum_data_count
@@ -72,7 +72,7 @@ extern unsigned long long btree_csum_one_bio_count;
 extern unsigned long long csum_dirty_buffer_time;
 extern unsigned long long csum_dirty_buffer_count;
 
-
+*/
 static const struct extent_io_ops btree_extent_io_ops;
 static void end_workqueue_fn(struct btrfs_work *work);
 static void free_fs_root(struct btrfs_root *root);
@@ -283,7 +283,7 @@ u32 btrfs_csum_data(const char *data, u32 seed, size_t len){
         getrawmonotonic(&local_time[0]);
         btrfs_csum_data_internal(data, seed, len);
         getrawmonotonic(&local_time[1]);
-        calclock(local_time, &btrfs_csum_data_time, &btrfs_csum_data_count);
+        //calclock(local_time, &btrfs_csum_data_time, &btrfs_csum_data_count);
 }
 
 u32 btrfs_csum_data_internal(const char *data, u32 seed, size_t len)
@@ -312,7 +312,7 @@ static int csum_tree_block(struct btrfs_fs_info *fs_info,
         getrawmonotonic(&local_time[0]);
         csum_tree_block_internal(fs_info, buf, verify);
         getrawmonotonic(&local_time[1]);
-        calclock(local_time, &csum_tree_block_time, &csum_tree_block_count);
+        //calclock(local_time, &csum_tree_block_time, &csum_tree_block_count);
 
 }
 static int csum_tree_block_internal(struct btrfs_fs_info *fs_info,
@@ -543,7 +543,7 @@ static int csum_dirty_buffer(struct btrfs_fs_info *fs_info, struct page *page){
         getrawmonotonic(&local_time[0]);
         csum_dirty_buffer_internal(fs_info, page);
         getrawmonotonic(&local_time[1]);
-        calclock(local_time, &csum_dirty_buffer_time, &csum_dirty_buffer_count);
+        //calclock(local_time, &csum_dirty_buffer_time, &csum_dirty_buffer_count);
 
 }
 static int csum_dirty_buffer_internal(struct btrfs_fs_info *fs_info, struct page *page)
@@ -1011,7 +1011,7 @@ static blk_status_t btree_csum_one_bio(struct bio *bio){
         getrawmonotonic(&local_time[0]);
        	btree_csum_one_bio_internal(bio);
         getrawmonotonic(&local_time[1]);
-        calclock(local_time, &btree_csum_one_bio_time, &btree_csum_one_bio_count);
+        //calclock(local_time, &btree_csum_one_bio_time, &btree_csum_one_bio_count);
 
 }
 static blk_status_t btree_csum_one_bio_internal(struct bio *bio)

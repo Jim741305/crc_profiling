@@ -50,5 +50,7 @@ u32 btrfs_crc32c(u32 crc, const void *address, unsigned int length)
 
 	retval = *ctx;
 	barrier_data(ctx);
+	
+	printk(" length : %d\n", length);
 	return retval;
 }

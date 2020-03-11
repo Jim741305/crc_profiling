@@ -1042,6 +1042,7 @@ deps_/home/dcslab/btrfs_4.14/disk-io.o := \
   /home/dcslab/btrfs_4.14/sysfs.h \
   /home/dcslab/btrfs_4.14/qgroup.h \
   /home/dcslab/btrfs_4.14/compression.h \
+  /home/dcslab/btrfs_4.14/calclock.h \
 
 /home/dcslab/btrfs_4.14/disk-io.o: $(deps_/home/dcslab/btrfs_4.14/disk-io.o)
 

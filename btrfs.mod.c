@@ -352,6 +352,7 @@ __attribute__((section("__versions"))) = {
 	{ 0xec018b66, __VMLINUX_SYMBOL_STR(__radix_tree_insert) },
 	{ 0xd2c71289, __VMLINUX_SYMBOL_STR(submit_bh) },
 	{ 0x8652eaa3, __VMLINUX_SYMBOL_STR(down_read_trylock) },
+	{ 0x123f82f3, __VMLINUX_SYMBOL_STR(getrawmonotonic64) },
 	{ 0x4e9558bf, __VMLINUX_SYMBOL_STR(kmem_cache_alloc_trace) },
 	{ 0x261d594c, __VMLINUX_SYMBOL_STR(dio_end_io) },
 	{ 0xe259ae9e, __VMLINUX_SYMBOL_STR(_raw_spin_lock) },
@@ -472,4 +473,4 @@ __attribute__((section(".modinfo"))) =
 "depends=zstd_compress,zstd_decompress,raid6_pq,xor";
 
 
-MODULE_INFO(srcversion, "ACE83B6761B239C2D42B228");
+MODULE_INFO(srcversion, "FCAB6607B87CF593FA59CD4");

@@ -1,4 +1,4 @@
-cscope 15 /home/dcslab/btrfs_4.14               0002896950
+cscope 15 /home/dcslab/btrfs_4.14               0002896451
 	@acl.c
 
 19 
@@ -14353,697 +14353,703 @@ __VMLINUX_SYMBOL_STR
 down_»ad_Œylock
 ) },
 
-355 { 0x4e9558bf, 
+355 { 0x123f82f3, 
+__VMLINUX_SYMBOL_STR
+(
+g‘¿wmÚÙÚic64
+) },
+
+356 { 0x4e9558bf, 
 __VMLINUX_SYMBOL_STR
 (
 kmem_ÿche_®loc_Œaû
 ) },
 
-356 { 0x261d594c, 
+357 { 0x261d594c, 
 __VMLINUX_SYMBOL_STR
 (
 dio_’d_io
 ) },
 
-357 { 0xe259«9e, 
+358 { 0xe259«9e, 
 __VMLINUX_SYMBOL_STR
 (
 _¿w_¥š_lock
 ) },
 
-358 { 0x680ec266, 
+359 { 0x680ec266, 
 __VMLINUX_SYMBOL_STR
 (
 _¿w_¥š_lock_œq§ve
 ) },
 
-359 { 0x5363326c, 
+360 { 0x5363326c, 
 __VMLINUX_SYMBOL_STR
 (
 ¿dix_Œ“_g_þ—r
 ) },
 
-360 { 0xa5526619, 
+361 { 0xa5526619, 
 __VMLINUX_SYMBOL_STR
 (
 rb_š£¹_cÞÜ
 ) },
 
-361 { 0x6çec18f, 
+362 { 0x6çec18f, 
 __VMLINUX_SYMBOL_STR
 (
 kmem_ÿche_ü—‹
 ) },
 
-362 { 0x8d5d364e, 
+363 { 0x8d5d364e, 
 __VMLINUX_SYMBOL_STR
 (
 d_tmpfže
 ) },
 
-363 { 0x9edeûd2, 
+364 { 0x9edeûd2, 
 __VMLINUX_SYMBOL_STR
 (
 »gi¡”_fžesy¡em
 ) },
 
-364 { 0x35a88f28, 
+365 { 0x35a88f28, 
 __VMLINUX_SYMBOL_STR
 (
 zlib_šæ©eIn™2
 ) },
 
-365 { 0x8e6c7eû, 
+366 { 0x8e6c7eû, 
 __VMLINUX_SYMBOL_STR
 (
 £q_d’Œy
 ) },
 
-366 { 0xf2c43f3f, 
+367 { 0xf2c43f3f, 
 __VMLINUX_SYMBOL_STR
 (
 zlib_deæ©e
 ) },
 
-367 { 0x4302d0eb, 
+368 { 0x4302d0eb, 
 __VMLINUX_SYMBOL_STR
 (
 ä“_·ges
 ) },
 
-368 { 0x75d61b65, 
+369 { 0x75d61b65, 
 __VMLINUX_SYMBOL_STR
 (
 synchrÚize_¤cu
 ) },
 
-369 { 0x5df8fd57, 
+370 { 0x5df8fd57, 
 __VMLINUX_SYMBOL_STR
 (
 ev’t_Œigg”s_ÿÎ
 ) },
 
-370 { 0x5b205e34, 
+371 { 0x5b205e34, 
 __VMLINUX_SYMBOL_STR
 (
 __wake_up
 ) },
 
-371 { 0x8bd717a2, 
+372 { 0x8bd717a2, 
 __VMLINUX_SYMBOL_STR
 (
 sysfs_»move_fžes
 ) },
 
-372 { 0xb3f7646e, 
+373 { 0xb3f7646e, 
 __VMLINUX_SYMBOL_STR
 (
 kth»ad_should_¡Ý
 ) },
 
-373 { 0x4c455cb5, 
+374 { 0x4c455cb5, 
 __VMLINUX_SYMBOL_STR
 (
 __·gevec_»Ëa£
 ) },
 
-374 { 0x1984d421, 
+375 { 0x1984d421, 
 __VMLINUX_SYMBOL_STR
 (
 out_of_lše_wa™_Ú_b™
 ) },
 
-375 { 0x69e43cfd, 
+376 { 0x69e43cfd, 
 __VMLINUX_SYMBOL_STR
 (
 ´•¬e_to_wa™_ev’t
 ) },
 
-376 { 0x3db8d5cc, 
+377 { 0x3db8d5cc, 
 __VMLINUX_SYMBOL_STR
 (
 __‹¡_£t_·ge_wr™eback
 ) },
 
-377 { 0xc3024baf, 
+378 { 0xc3024baf, 
 __VMLINUX_SYMBOL_STR
 (
 I_BDEV
 ) },
 
-378 { 0xbe1d48e8, 
+379 { 0xbe1d48e8, 
 __VMLINUX_SYMBOL_STR
 (
 blockdev_su³rblock
 ) },
 
-379 { 0x9a60e2a8, 
+380 { 0x9a60e2a8, 
 __VMLINUX_SYMBOL_STR
 (
 k£t_uÄegi¡”
 ) },
 
-380 { 0x20d1e91, 
+381 { 0x20d1e91, 
 __VMLINUX_SYMBOL_STR
 (
 ut
 ) },
 
-381 { 0x37a0cba, 
+382 { 0x37a0cba, 
 __VMLINUX_SYMBOL_STR
 (
 kä“
 ) },
 
-382 { 0xcc414350, 
+383 { 0xcc414350, 
 __VMLINUX_SYMBOL_STR
 (
 Œunÿ‹_·geÿche_¿nge
 ) },
 
-383 { 0x6d3798e, 
+384 { 0x6d3798e, 
 __VMLINUX_SYMBOL_STR
 (
 g’”ic_³rmissiÚ
 ) },
 
-384 { 0x9fda308b, 
+385 { 0x9fda308b, 
 __VMLINUX_SYMBOL_STR
 (
 šode_dio_wa™
 ) },
 
-385 { 0x590b2531, 
+386 { 0x590b2531, 
 __VMLINUX_SYMBOL_STR
 (
 ·ge_g‘_lšk
 ) },
 
-386 { 0xed90634e, 
+387 { 0xed90634e, 
 __VMLINUX_SYMBOL_STR
 (
 ihÞd
 ) },
 
-387 { 0x69acdf38, 
+388 { 0x69acdf38, 
 __VMLINUX_SYMBOL_STR
 (
 memýy
 ) },
 
-388 { 0xf6c7ac56, 
+389 { 0xf6c7ac56, 
 __VMLINUX_SYMBOL_STR
 (
 __sb_’d_wr™e
 ) },
 
-389 { 0x61520529, 
+390 { 0x61520529, 
 __VMLINUX_SYMBOL_STR
 (
 Œaû_´št_symbÞs_£q
 ) },
 
-390 { 0x932e7837, 
+391 { 0x932e7837, 
 __VMLINUX_SYMBOL_STR
 (
 Œaû_ev’t_¿w_š™
 ) },
 
-391 { 0x643e0û5, 
+392 { 0x643e0û5, 
 __VMLINUX_SYMBOL_STR
 (
 ÿÎ_rcu_sched
 ) },
 
-392 { 0x783“c86, 
+393 { 0x783“c86, 
 __VMLINUX_SYMBOL_STR
 (
 cu¼’t_time
 ) },
 
-393 { 0xc63e9462, 
+394 { 0xc63e9462, 
 __VMLINUX_SYMBOL_STR
 (
 ´•¬e_to_wa™
 ) },
 
-394 { 0xef7f3741, 
+395 { 0xef7f3741, 
 __VMLINUX_SYMBOL_STR
 (
 g’”ic_”rÜ_»move_·ge
 ) },
 
-395 { 0xebbdb91e, 
+396 { 0xebbdb91e, 
 __VMLINUX_SYMBOL_STR
 (
 d_¥liû_®Ÿs
 ) },
 
-396 { 0xd0a91bab, 
+397 { 0xd0a91bab, 
 __VMLINUX_SYMBOL_STR
 (
 sk_¥aûs
 ) },
 
-397 { 0x3943e4d4, 
+398 { 0x3943e4d4, 
 __VMLINUX_SYMBOL_STR
 (
 f¢Ùify
 ) },
 
-398 { 0x1e26be3b, 
+399 { 0x1e26be3b, 
 __VMLINUX_SYMBOL_STR
 (
 g‘_ªÚ_bdev
 ) },
 
-399 { 0x1e3b3522, 
+400 { 0x1e3b3522, 
 __VMLINUX_SYMBOL_STR
 (
 kobjeù_š™
 ) },
 
-400 { 0x9754ec10, 
+401 { 0x9754ec10, 
 __VMLINUX_SYMBOL_STR
 (
 ¿dix_Œ“_´–ßd
 ) },
 
-401 { 0xeûb9c7e, 
+402 { 0xeûb9c7e, 
 __VMLINUX_SYMBOL_STR
 (
 sync_fžesy¡em
 ) },
 
-402 { 0x78e739¯, 
+403 { 0x78e739¯, 
 __VMLINUX_SYMBOL_STR
 (
 up
 ) },
 
-403 { 0x24ac2427, 
+404 { 0x24ac2427, 
 __VMLINUX_SYMBOL_STR
 (
 šv®id©e_m­pšg_·ges
 ) },
 
-404 { 0x787c882b, 
+405 { 0x787c882b, 
 __VMLINUX_SYMBOL_STR
 (
 lzo1x_1_com´ess
 ) },
 
-405 { 0x9913af4c, 
+406 { 0x9913af4c, 
 __VMLINUX_SYMBOL_STR
 (
 fg‘
 ) },
 
-406 { 0x50a90e8d, 
+407 { 0x50a90e8d, 
 __VMLINUX_SYMBOL_STR
 (
 b£¬ch
 ) },
 
-407 { 0x242e155, 
+408 { 0x242e155, 
 __VMLINUX_SYMBOL_STR
 (
 __sb_¡¬t_wr™e
 ) },
 
-408 { 0x53569707, 
+409 { 0x53569707, 
 __VMLINUX_SYMBOL_STR
 (
 this_ýu_off
 ) },
 
-409 { 0xd1a98c5e, 
+410 { 0xd1a98c5e, 
 __VMLINUX_SYMBOL_STR
 (
 d_make_roÙ
 ) },
 
-410 { 0xf3—50bd, 
+411 { 0xf3—50bd, 
 __VMLINUX_SYMBOL_STR
 (
 __blockdev_dœeù_IO
 ) },
 
-411 { 0xf5ã954e, 
+412 { 0xf5ã954e, 
 __VMLINUX_SYMBOL_STR
 (
 iov_™”_advªû
 ) },
 
-412 { 0x4df8fbc, 
+413 { 0x4df8fbc, 
 __VMLINUX_SYMBOL_STR
 (
 lzo1x_decom´ess_§ã
 ) },
 
-413 { 0x6c3f70e0, 
+414 { 0x6c3f70e0, 
 __VMLINUX_SYMBOL_STR
 (
 guid_g’
 ) },
 
-414 { 0xb352177e, 
+415 { 0xb352177e, 
 __VMLINUX_SYMBOL_STR
 (
 fšd_fœ¡_b™
 ) },
 
-415 { 0x9bd4b263, 
+416 { 0x9bd4b263, 
 __VMLINUX_SYMBOL_STR
 (
 iov_™”_cÝy_äom_u£r_©omic
 ) },
 
-416 { 0xc890c008, 
+417 { 0xc890c008, 
 __VMLINUX_SYMBOL_STR
 (
 zlib_deæ©eEnd
 ) },
 
-417 { 0xûd6bcd8, 
+418 { 0xûd6bcd8, 
 __VMLINUX_SYMBOL_STR
 (
 fšish_wa™
 ) },
 
-418 { 0x1803a6ed, 
+419 { 0x1803a6ed, 
 __VMLINUX_SYMBOL_STR
 (
 ¿id6_2d©a_»cov
 ) },
 
-419 { 0x92a6f160, 
+420 { 0x92a6f160, 
 __VMLINUX_SYMBOL_STR
 (
 ¿dix_Œ“_lookup
 ) },
 
-420 { 0x1ef03a54, 
+421 { 0x1ef03a54, 
 __VMLINUX_SYMBOL_STR
 (
 fžem­_fd©awr™e_¿nge
 ) },
 
-421 { 0xdf06e0c6, 
+422 { 0xdf06e0c6, 
 __VMLINUX_SYMBOL_STR
 (
 __fšd_g‘_block
 ) },
 
-422 { 0xb9487b32, 
+423 { 0xb9487b32, 
 __VMLINUX_SYMBOL_STR
 (
 posix_aþ_deçuÉ_x©Œ_hªdËr
 ) },
 
-423 { 0x63c4d61f, 
+424 { 0x63c4d61f, 
 __VMLINUX_SYMBOL_STR
 (
 __b™m­_weight
 ) },
 
-424 { 0xÿ9360b5, 
+425 { 0xÿ9360b5, 
 __VMLINUX_SYMBOL_STR
 (
 rb_Ãxt
 ) },
 
-425 { 0x6be5f0a, 
+426 { 0x6be5f0a, 
 __VMLINUX_SYMBOL_STR
 (
 uÄegi¡”_fžesy¡em
 ) },
 
-426 { 0x8c846a39, 
+427 { 0x8c846a39, 
 __VMLINUX_SYMBOL_STR
 (
 š™_¥ecŸl_šode
 ) },
 
-427 { 0x1e8e8436, 
+428 { 0x1e8e8436, 
 __VMLINUX_SYMBOL_STR
 (
 £cur™y_sb_£t_mÁ_Ýts
 ) },
 
-428 { 0x240b75e7, 
+429 { 0x240b75e7, 
 __VMLINUX_SYMBOL_STR
 (
 kobjeù_»Çme
 ) },
 
-429 { 0xa283697, 
+430 { 0xa283697, 
 __VMLINUX_SYMBOL_STR
 (
 Œaû_¿w_ouut_´•
 ) },
 
-430 { 0x9291cd3b, 
+431 { 0x9291cd3b, 
 __VMLINUX_SYMBOL_STR
 (
 memdup_u£r
 ) },
 
-431 { 0x2e0d2f7f, 
+432 { 0x2e0d2f7f, 
 __VMLINUX_SYMBOL_STR
 (
 queue_wÜk_Ú
 ) },
 
-432 { 0x4610«e6, 
+433 { 0x4610«e6, 
 __VMLINUX_SYMBOL_STR
 (
 com¶‘e
 ) },
 
-433 { 0x6264077a, 
+434 { 0x6264077a, 
 __VMLINUX_SYMBOL_STR
 (
 fžem­_m­_·ges
 ) },
 
-434 { 0x28318305, 
+435 { 0x28318305, 
 __VMLINUX_SYMBOL_STR
 (
 ¢´štf
 ) },
 
-435 { 0x871c0a7e, 
+436 { 0x871c0a7e, 
 __VMLINUX_SYMBOL_STR
 (
 f›m­_check_æags
 ) },
 
-436 { 0xaf5b8886, 
+437 { 0xaf5b8886, 
 __VMLINUX_SYMBOL_STR
 (
 Ãw_šode
 ) },
 
-437 { 0x11ÿddc7, 
+438 { 0x11ÿddc7, 
 __VMLINUX_SYMBOL_STR
 (
 Œaû_£q_´štf
 ) },
 
-438 { 0xb0e602eb, 
+439 { 0xb0e602eb, 
 __VMLINUX_SYMBOL_STR
 (
 memmove
 ) },
 
-439 { 0x822967“, 
+440 { 0x822967“, 
 __VMLINUX_SYMBOL_STR
 (
 g’”ic_fže_¥liû_»ad
 ) },
 
-440 { 0x959647c9, 
+441 { 0x959647c9, 
 __VMLINUX_SYMBOL_STR
 (
 lookup_Úe_Ën
 ) },
 
-441 { 0x4ûe62be, 
+442 { 0x4ûe62be, 
 __VMLINUX_SYMBOL_STR
 (
 £t_blocksize
 ) },
 
-442 { 0x708a79f7, 
+443 { 0x708a79f7, 
 __VMLINUX_SYMBOL_STR
 (
 __³rýu_couÁ”_com·»
 ) },
 
-443 { 0xdf2c2742, 
+444 { 0xdf2c2742, 
 __VMLINUX_SYMBOL_STR
 (
 rb_Ï¡
 ) },
 
-444 { 0x174f9015, 
+445 { 0x174f9015, 
 __VMLINUX_SYMBOL_STR
 (
 z”o_fžl_bio
 ) },
 
-445 { 0x362ef408, 
+446 { 0x362ef408, 
 __VMLINUX_SYMBOL_STR
 (
 _cÝy_äom_u£r
 ) },
 
-446 { 0xa0805db2, 
+447 { 0xa0805db2, 
 __VMLINUX_SYMBOL_STR
 (
 bio£t_ä“
 ) },
 
-447 { 0x702dbc98, 
+448 { 0x702dbc98, 
 __VMLINUX_SYMBOL_STR
 (
 __þ—nÿche_š™_fs
 ) },
 
-448 { 0xb4314db0, 
+449 { 0xb4314db0, 
 __VMLINUX_SYMBOL_STR
 (
 þ—r_šode
 ) },
 
-449 { 0x7d705738, 
+450 { 0x7d705738, 
 __VMLINUX_SYMBOL_STR
 (
 blk_¡¬t_¶ug
 ) },
 
-450 { 0xd97475e5, 
+451 { 0xd97475e5, 
 __VMLINUX_SYMBOL_STR
 (
 misc_d”egi¡”
 ) },
 
-451 { 0x2a6c2cd8, 
+452 { 0x2a6c2cd8, 
 __VMLINUX_SYMBOL_STR
 (
 ·geÿche_isize_ex‹nded
 ) },
 
-452 { 0x780bdde5, 
+453 { 0x780bdde5, 
 __VMLINUX_SYMBOL_STR
 (
 d_š¡ªtŸ‹
 ) },
 
-453 { 0x51158265, 
+454 { 0x51158265, 
 __VMLINUX_SYMBOL_STR
 (
 __š™_rw£m
 ) },
 
-454 { 0x48cû570, 
+455 { 0x48cû570, 
 __VMLINUX_SYMBOL_STR
 (
 fžem­_æush
 ) },
 
-455 { 0xcd87c62e, 
+456 { 0xcd87c62e, 
 __VMLINUX_SYMBOL_STR
 (
 __put_·ge
 ) },
 
-456 { 0x62bd7041, 
+457 { 0x62bd7041, 
 __VMLINUX_SYMBOL_STR
 (
 fže_check_ªd_advªû_wb_”r
 ) },
 
-457 { 0x54031233, 
+458 { 0x54031233, 
 __VMLINUX_SYMBOL_STR
 (
 þ—r_Æšk
 ) },
 
-458 { 0x274b986d, 
+459 { 0x274b986d, 
 __VMLINUX_SYMBOL_STR
 (
 £‰r_´•¬e
 ) },
 
-459 { 0xf3412d1a, 
+460 { 0xf3412d1a, 
 __VMLINUX_SYMBOL_STR
 (
 vfs_fsync_¿nge
 ) },
 
-460 { 0x7c2d098f, 
+461 { 0x7c2d098f, 
 __VMLINUX_SYMBOL_STR
 (
 k»®loc
 ) },
 
-461 { 0x20065679, 
+462 { 0x20065679, 
 __VMLINUX_SYMBOL_STR
 (
 g’”ic_fžÏ‰r
 ) },
 
-462 { 0xa8f33b82, 
+463 { 0xa8f33b82, 
 __VMLINUX_SYMBOL_STR
 (
 šode_š™_owÃr
 ) },
 
-463 { 0xe914e41e, 
+464 { 0xe914e41e, 
 __VMLINUX_SYMBOL_STR
 (
 ¡rýy
 ) },
 
-464 { 0x844ab2c4, 
+465 { 0x844ab2c4, 
 __VMLINUX_SYMBOL_STR
 (
 noÝ_backšg_dev_šfo
 ) },
 
-465 { 0x8ad82482, 
+466 { 0x8ad82482, 
 __VMLINUX_SYMBOL_STR
 (
 fžp_Ý’
 ) },
 
-466 { 0xc496617b, 
+467 { 0xc496617b, 
 __VMLINUX_SYMBOL_STR
 (
 __·ge_fže_šdex
 ) },
 
-469 cÚ¡ 
+470 cÚ¡ 
 	g__moduË_d•’ds
 []
 
-470 
+471 
 __u£d
 
 
-471 
+472 
 __©Œibu‹__
 ((
 £ùiÚ
 (".modinfo"))) =
 
-475 
+476 
 MODULE_INFO
 (
 ¤cv”siÚ
-, "ACE83B6761B239C2D42B228");
+, "61B5F0DC0877A50DFE4762F");
 
 	@btrfs_inode.h
 
@@ -100945,38 +100951,6 @@ BTRFS_SUPER_FLAG_METADUMP
 
 	)
 
-64 
-csum_Œ“_block_time
-;
-
-65 
-csum_Œ“_block_couÁ
-;
-
-66 
-bŒfs_csum_d©a_time
-;
-
-67 
-bŒfs_csum_d©a_couÁ
-
-
-70 
-bŒ“_csum_Úe_bio_time
-;
-
-71 
-bŒ“_csum_Úe_bio_couÁ
-;
-
-72 
-csum_dœty_bufãr_time
-;
-
-73 
-csum_dœty_bufãr_couÁ
-;
-
 76 cÚ¡ 
 ex‹Á_io_Ýs
  
@@ -101849,16 +101823,6 @@ d©a
 loÿl_time
 [1]);
 
-286 
-	`ÿlþock
-(
-loÿl_time
-, &
-bŒfs_csum_d©a_time
-, &
-bŒfs_csum_d©a_couÁ
-);
-
 287 
 	}
 }
@@ -101980,16 +101944,6 @@ v”ify
 (&
 loÿl_time
 [1]);
-
-315 
-	`ÿlþock
-(
-loÿl_time
-, &
-csum_Œ“_block_time
-, &
-csum_Œ“_block_couÁ
-);
 
 317 
 	}
@@ -102878,16 +102832,6 @@ fs_šfo
 (&
 loÿl_time
 [1]);
-
-546 
-	`ÿlþock
-(
-loÿl_time
-, &
-csum_dœty_bufãr_time
-, &
-csum_dœty_bufãr_couÁ
-);
 
 548 
 	}
@@ -104936,16 +104880,6 @@ bio
 (&
 loÿl_time
 [1]);
-
-1014 
-	`ÿlþock
-(
-loÿl_time
-, &
-bŒ“_csum_Úe_bio_time
-, &
-bŒ“_csum_Úe_bio_couÁ
-);
 
 1016 
 	}
@@ -247205,7 +247139,7 @@ add»ss
 Ëngth
 )
 
-39 
+40 
 	`SHASH_DESC_ON_STACK
 (
 shash
@@ -247213,7 +247147,7 @@ shash
 tfm
 );
 
-40 
+41 
 u32
  *
 ùx
@@ -247223,35 +247157,35 @@ u32
 shash
 );
 
-41 
+42 
 u32
  
 »tv®
 ;
 
-42 
+43 
 ”r
 ;
 
-44 
+45 
 shash
 ->
 tfm
  =fm;
 
-45 
+46 
 shash
 ->
 æags
  = 0;
 
-46 *
+47 *
 ùx
  = 
 üc
 ;
 
-48 
+49 
 ”r
  = 
 	`üy±o_shash_upd©e
@@ -247263,29 +247197,29 @@ add»ss
 Ëngth
 );
 
-49 
+50 
 	`BUG_ON
 (
 ”r
 );
 
-51 
+52 
 »tv®
  = *
 ùx
 ;
 
-52 
+53 
 	`b¬r›r_d©a
 (
 ùx
 );
 
-53  
+54  
 »tv®
 ;
 
-54 
+55 
 	}
 }
 
