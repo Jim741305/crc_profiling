@@ -473,4 +473,4 @@ __attribute__((section(".modinfo"))) =
 "depends=zstd_compress,zstd_decompress,raid6_pq,xor";
 
 
-MODULE_INFO(srcversion, "FCAB6607B87CF593FA59CD4");
+MODULE_INFO(srcversion, "F56F593DD5B4BE01EE62C33");
